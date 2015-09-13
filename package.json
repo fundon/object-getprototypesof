@@ -1,0 +1,33 @@
+{
+  "name": "object-getprototypesof",
+  "version": "1.0.0",
+  "description": "Recursive get prototype of object",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fundon/object-getprototypesof.git"
+  },
+  "keywords": [
+    "proto",
+    "__proto__",
+    "prototype",
+    "getPrototypeOf",
+    "getPrototypesOf",
+    "Object"
+  ],
+  "author": "Fangdun Cai <cfddream@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fundon/object-getprototypesof/issues"
+  },
+  "homepage": "https://github.com/fundon/object-getprototypesof#readme",
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "files": [
+    "index.js"
+  ]
+}
