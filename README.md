@@ -16,6 +16,15 @@ $ npm install --save object-getprototypesof
 ```js
 const getPrototypesOf = require('object-getprototypesof');
 
+const a = {};
+const b = {};
+const c = {};
+
+b.__proto__ = a;
+Object.setProtoypeOf(c, b);
+
+var arr = getPrototypesOf(c);
+// [{}, {}, {}];
 ```
 
 ## License

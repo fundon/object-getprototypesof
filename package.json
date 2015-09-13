@@ -1,6 +1,6 @@
 {
   "name": "object-getprototypesof",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Recursive get prototype of object",
   "main": "index.js",
   "scripts": {
